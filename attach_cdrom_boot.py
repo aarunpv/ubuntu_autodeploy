@@ -92,7 +92,7 @@ def configure_vm_cdroms_and_boot(
 
     return vm.ReconfigVM_Task(cfg)
 
-
+# How to use the above script
 if __name__ == "__main__":
     si = SmartConnect(
             host="VCENTER_IP/FQDN",

@@ -5,6 +5,12 @@ import pycdlib
 import re
 from pyfatfs.PyFatFS import PyFatFS, PyFat
 
+'''
+Creates a UEFI-bootable Ubuntu autoinstall ISO using NoCloud data source.
+
+
+'''
+
 # ---------------- CONFIG ----------------
 UBUNTU_ISO_PATH = "/iso/ubuntu-24.04.3-live-server-amd64.iso"
 VM_NAME = "vm01"

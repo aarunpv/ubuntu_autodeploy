@@ -95,9 +95,9 @@ def configure_vm_cdroms_and_boot(
 
 if __name__ == "__main__":
     si = SmartConnect(
-            host="blrv670-vc.sscvblr.com",
-            user="arun@sscvblr.com",
-            pwd="Changeme@123", 
+            host="VCENTER_IP/FQDN",
+            user="USERNAME",
+            pwd="PASSWORD", 
             disableSslCertValidation=True)
     task = configure_vm_cdroms_and_boot(
         si =si,
